@@ -1,0 +1,188 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.main-container {
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #9053c7;
+    background: linear-gradient(-135deg, rgb(62, 61, 61), rgb(129, 3, 129));
+    background-size: cover;
+}
+.tic_div {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.tic {
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    margin: auto;
+    color: #fff;
+}
+.photo {
+    border-radius: 15px;
+    padding-left: 30vw;
+}
+.photo_p {
+    height: 25vw;
+    width: 40vw;
+}
+.gamephoto {
+    width: 76vw;
+    height: 560px;
+    margin-left: 12vw;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+.rules_div {
+    margin-left: 35vw;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+.rules {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+    
+}
+.rules:hover {
+    background-color: #3e8e41
+}
+.rul {
+    text-decoration: none;
+}
+
+.play {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.play:hover {
+    background-color: #3e8e41
+}
+.play:active {
+    background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.help_div {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.help {
+    display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.help:hover {
+    background-color: #3e8e41
+}
+.help:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+@media screen and (max-width: 800px) {
+    .container {
+        width: 100vw;
+        margin: 0 auto;
+    }
+    .main-container {
+        width: 100vw;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background: #9053c7;
+        background: linear-gradient(-135deg, rgb(62, 61, 61), rgb(129, 3, 129));
+        background-size: cover;
+    }
+    .tic_div {
+        padding-top: 20px;
+        padding-bottom: 15px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    .photo {
+        padding-top: 20px;
+        padding-left: 5vw;
+    }
+    .photo_p {
+        width: 90vw;
+        height: 50vw;
+    }
+    .flex {
+        display: flex;
+        flex-direction: column;
+    }
+    .rules_div {
+        margin-left: 35vw;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    .play {
+        margin-left: 35vw;
+        width: 120px;
+        height: 60px;
+        display: inline-block;
+      padding: 15px 25px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #4CAF50;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 9px #999;
+    }
+    .help_div {
+        margin-top: 15px;
+        margin-left: 37vw;
+    }
+    
+}

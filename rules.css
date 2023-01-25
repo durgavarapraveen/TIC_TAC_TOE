@@ -1,0 +1,94 @@
+*body {
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    height: 100vh;
+}
+.container {
+    width: 100%;
+    padding: 0 auto;
+}
+.main_container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background: linear-gradient(-135deg, rgb(62, 61, 61), rgb(129, 3, 129));
+    background-size: cover;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.rules_box {
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+.guide {
+    font-size: 1.5vw;
+}
+.rules {
+    text-align: center;
+    color: rgb(12, 129, 232);
+    font-weight: 1000;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.game {
+    font-size: 2vw;
+    text-align: left;
+    padding-left: 1.5vw;
+}
+.rule_1 {
+    font-size: 1.5vw;
+    text-align: left;
+    padding-left: 3vw;
+    padding-top: 3vh;
+}
+@media screen and (max-width: 600px) {
+    .rules_box {
+        width: 80vw;
+        background: #fff;
+        border-radius: 10px;
+        overflow: hidden;
+        justify-content: space-between;
+        text-align: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .rules {
+        text-align: center;
+        color: rgb(12, 129, 232);
+        font-weight: 1000;
+        font-size: 40px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    .guide {
+        font-size: 20px;
+        text-align: left;
+    }
+    .game {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 1.5vw;
+    }
+    .rule_1 {
+        font-size: 20px;
+        text-align: left;
+        padding-left: 3vw;
+        padding-top: 3vh;
+    }
+} 
